@@ -12,13 +12,19 @@
 #
 # ### Syntax
 #
-# standalone_tags:
+#standalone_tags:
 #   [
 #     {id: ID, size: SIZE, name: NAME},
 #     ...
 #   ]
 standalone_tags:
   [
+     {id: 7, size: 0.09},
+     {id: 222, size: 0.036},
+     {id: 0, size: 0.08},
+     {id: 25, size: 0.033},
+     {id: 24, size: 0.033},
+     {id: 1, size: 0.033}
   ]
 # ## Tag bundle definitions
 # ### Remarks
@@ -31,16 +37,19 @@ standalone_tags:
 #
 # tag_bundles:
 #   [
-#     {
-#       name: 'CUSTOM_BUNDLE_NAME',
-#       layout:
-#         [
-#           {id: ID, size: SIZE, x: X_POS, y: Y_POS, z: Z_POS, qw: QUAT_W_VAL, qx: QUAT_X_VAL, qy: QUAT_Y_VAL, qz: QUAT_Z_VAL},
-#           ...
-#         ]
-#     },
-#     ...
+#     
 #   ]
 tag_bundles:
-  [
+ [
+#   {
+#      name: 'my_bundle',
+#      layout:
+#        [
+#          {id: 7, size: 0.03, x: 0.0000, y: 0.0000, z: 0.0000, qw: 1.0000, qx: 0.0000, qy: 0.0000, qz: 0.0000},
+#          {id: 1, size: 0.03, x: 0.0994, y: 0.0877, z: 0.0517, qw: 0.7001, qx: 0.0766, qy: -0.1152, qz: 0.7005},
+#          {id: 25, size: 0.03, x: -0.1044, y: 0.0945, z: 0.0296, qw: 0.0009, qx: -0.0747, qy: -0.1185, qz: 0.9901},
+#          {id: 24, size: 0.03, x: 0.0950, y: -0.1062, z: -0.0015, qw: 0.7008, qx: -0.2708, qy: -0.0445, qz: 0.6585},
+#          {id: 0, size: 0.03, x: -0.1054, y: -0.0963, z: -0.0429, qw: 0.6940, qx: -0.0108, qy: -0.0513, qz: -0.7181}
+#        ]
+#    }
   ]
